@@ -1,1 +1,1 @@
-docker image build -t todobackend:M .
+docker image build todobackend .
