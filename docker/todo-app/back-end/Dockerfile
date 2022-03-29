@@ -1,4 +1,4 @@
-FROM node:14-alpine AS todobackend
+FROM node:14-alpine
 WORKDIR /back-end
 ADD ./node_modules.tar.gz ./
 COPY ["/todo-app/back-end", "./"]
