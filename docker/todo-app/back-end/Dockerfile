@@ -3,4 +3,4 @@ WORKDIR /docker/todo-app/back-end
 ADD ./node_modules.tar.gz ./
 COPY . .
 EXPOSE 3001
-RUN npm start
+CMD ["npm", "start"]
