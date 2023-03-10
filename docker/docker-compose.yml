@@ -1,6 +1,6 @@
 version: '3'
 services:
-  todofront: #nome-do-services
+  todofront: #nome-do-services ou container?
     image: todofrontend
     ports:
       - 3000:80
